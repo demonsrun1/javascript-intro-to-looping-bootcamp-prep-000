@@ -12,4 +12,7 @@ function forLoop(arr1){
 
 function whileLoop(num){
   let countdown = num;
+  while(countdown > 0){
+    console.log(--countdown);
+  }
 }
