@@ -27,4 +27,3 @@ do{
 } while(arr.length > 0 &&maybeTrue());
 return arr
 }
-}
