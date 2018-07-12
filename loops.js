@@ -9,3 +9,7 @@ function forLoop(arr1){
   }
   return arr1;
 }
+
+function whileLoop(num){
+  let countdown = num;
+}
