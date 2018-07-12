@@ -17,3 +17,14 @@ function whileLoop(num){
   }
   return "done";
 }
+
+function doWhileLoop(arr){
+function maybeTrue(){
+  return Math.random() >= .5
+}
+do{
+  arr.pop();
+} while(arr.length > 0 &&maybeTrue());
+return arr
+}S
+}
